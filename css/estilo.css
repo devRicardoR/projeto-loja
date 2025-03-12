@@ -1,0 +1,39 @@
+form{
+    margin-top: 30px;
+    text-align: center;
+}
+
+form input{
+    margin-bottom: 10px;
+}
+
+form input[type="submit"]{
+    margin-top: 10px;
+}
+
+form img{
+    width: 200px;
+    margin-bottom: 40px;
+}
+
+.card{
+    margin-top: 40px;
+    padding: 5px;
+}
+
+.textos{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.card a{
+    margin-top: 5px;
+}
+
+.produto-img {
+    width: 100%; /* Faz a imagem ocupar toda a largura do card */
+    height: 200px; /* Define uma altura fixa para todas */
+    object-fit: cover; /* Corta a imagem para caber sem distorcer */
+}
